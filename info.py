@@ -12,9 +12,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ['API_ID'])
-API_HASH = environ['API_HASH']
-BOT_TOKEN = environ['BOT_TOKEN']
+API_ID = int(environ['API_ID' '14996799'])
+API_HASH = environ['API_HASH' '3a68b2acb0d832c3dea57bbfdd8bb6b2']
+BOT_TOKEN = environ['BOT_TOKEN' '5884072005:AAEeSg5tqhO9dgNsb7K3OjBUZ6G4ln8Bg2I']
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -44,9 +44,9 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "EvaMaria")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/CyniteSupport')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/CyniteBackup')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', CyniteSupport')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/zeeflix_chat')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/zeeflixbackup')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', zeeflix_owner')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
